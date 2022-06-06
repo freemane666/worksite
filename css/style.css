@@ -1,0 +1,66 @@
+
+.container {
+          width:350px;
+          margin:auto;
+          background-color:darkseagreen;
+          padding:30px 400px 26px 400px;
+          
+
+          
+}
+
+body,html {
+          font-size: 14px;
+          font-family: Verdana, Geneva, sans-serif;
+          
+          
+}
+
+#app h1 {
+          border-bottom:3px solid black;
+          padding-bottom:6px;
+          color:darkred;
+          
+}
+
+#app li {
+          list-style:none;
+          font-size:30px;
+          margin-left:55px;
+          color:deeppink;
+}
+
+#app input[type='text'] {
+          padding:6px;
+          border-radius:10px;
+          background-color:white;
+          color:black;
+          margin-left:90px;
+}
+
+#app input[type='submit'] {
+          cursor:pointer;
+}
+
+#app li > span.done {
+          text-decoration:line-through;
+          color:black;
+}
+
+.command {
+          cursor:pointer;
+         
+}
+
+.purge {
+          cursor:pointer;
+}
+
+.notlist {
+          font-size: 17px;
+}
+
+.title {
+          font-size:15px;
+          border-bottom:2px solid red;
+}
